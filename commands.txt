@@ -1,0 +1,21 @@
+commands:
+
+sudo iwconfig
+
+pwd
+
+cd Desktop
+
+Mk dir Airodump
+
+cd Airodump
+
+sudo airmon-ng start wlan0
+
+sudo iwconfig
+
+sudo airodump-ng wlan0
+
+sudo airodump-ng --bssid mac address --channel 11 --write cap wlan0
+
+
